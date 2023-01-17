@@ -23,6 +23,8 @@ setuptools.setup(
     ],
     install_requires=[
         "numpy",
+        "torch>=1.6",
+        "torchvision>=0.3.0",
     ],
     packages=setuptools.find_packages()
 )
